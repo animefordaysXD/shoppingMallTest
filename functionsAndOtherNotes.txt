@@ -1,1 +1,3 @@
 Maybe add a function that changes the search icon when hovered on? 
+
+firebase, firestore, google vm machine and using vm machine as server with apache? google sql 
