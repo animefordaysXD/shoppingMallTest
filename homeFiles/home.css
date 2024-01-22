@@ -17,10 +17,14 @@
     cursor:pointer;
 
 }
+.searchBar{
+    width:50%;
+    height: 50px;
+}
 .searchBar input{
     margin-left: 30%;
-    width: 50vw;
-    height: 50px;
+    width: 100%;
+    height: 100%;
     margin-top: 5%;
     border-radius: 25px;
     background-color: rgba(182, 203, 243, 0.5);
@@ -28,8 +32,13 @@
     font-family: 'Montserrat', sans-serif;
     border-color: rgba(26, 146, 226, 0.582);
 }
-.searchBar button{
-right: -63vw;
+.searchBar img{
+    position: absolute;
+    right: 28%;
+    top: 8%;
+   
+    width:20px;
+    height:20px;
 }
 .searchButton:hover{
     cursor:pointer;
