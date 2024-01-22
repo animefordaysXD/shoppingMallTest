@@ -1,11 +1,15 @@
 /* css.gg */
 @import url("https://css.gg/css");
 
-
+body{
+    margin: 0;
+}
 .header{
     display: flex;
-    width: 100vw;
+    width: 60vw;
     height: 10vh;
+    margin-left: 15%;
+    background-color: rgba(7, 202, 216, 0.8);
 }
 
 .logoPic{
@@ -23,23 +27,33 @@
 }
 .searchBar input{
     margin-left: 30%;
-    width: 100%;
+    width: 60%;
     height: 100%;
-    margin-top: 5%;
+   
     border-radius: 25px;
     background-color: rgba(182, 203, 243, 0.5);
-    font-size: 30px;
+    font-size: 15px;
     font-family: 'Montserrat', sans-serif;
     border-color: rgba(26, 146, 226, 0.582);
 }
 .searchBar img{
     position: absolute;
-    right: 28%;
-    top: 8%;
+    right: 52%;
+    top: 2%;
    
     width:20px;
     height:20px;
 }
 .searchButton:hover{
     cursor:pointer;
+}
+.navBar{
+    display: flex;
+    width:40%;
+    height:100%;
+    
+}
+
+.mainBody{
+    
 }

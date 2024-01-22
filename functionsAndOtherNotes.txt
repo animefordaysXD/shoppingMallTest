@@ -1,0 +1,1 @@
+Maybe add a function that changes the search icon when hovered on? 
